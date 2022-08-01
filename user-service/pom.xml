@@ -83,7 +83,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>microservices/user-service</repository>
+					<repository>neyasanand/user-service</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
