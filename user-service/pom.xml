@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.neyas</groupId>
 	<artifactId>user-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>user-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -45,6 +45,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -82,7 +83,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>dailycodebuffer/user-service</repository>
+					<repository>microservices/user-service</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
